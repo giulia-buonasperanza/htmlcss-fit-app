@@ -66,9 +66,7 @@
     left: 0%%;
 }
 
-.exercise-name
-
-/*:nth-child(even)*/
+.exercise-name   /*:nth-child(even)*/
     {
     margin-top: 15px;
 }
@@ -90,4 +88,23 @@
     background: #5865f2;
     transform: translateY(-2px);
     box-shadow: 0px 10px 20px rgba(0, 0, 255, 1)
+}
+
+/*n.10 Percentuale nella barra di progresso*/
+
+.progress-section {
+    position: relative;
+}
+
+.progress-bar::before{
+    content: "65%";
+    display: block;
+    position: absolute;
+    font-weight: bold;
+    color:white;
+    font-size: 10px;
+    z-index: 99;
+    top: 47%;
+    left: 58%;
+
 }
