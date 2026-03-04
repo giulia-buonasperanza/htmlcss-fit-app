@@ -71,3 +71,15 @@
 }
 
 /*non sono riuscita ad applicare i margini solo agli esercizi pari*/
+
+
+
+
+
+/*n.9 miglioramenti al button*/
+
+.save-btn:hover {
+    background: #5865f2;
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 255, 1)
+}
