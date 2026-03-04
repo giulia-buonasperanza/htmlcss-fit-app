@@ -1,6 +1,24 @@
 
 
 
+/*n.1 icona fuoco*/
+
+.stats-grid {
+    position:relative;
+}
+.stats-grid:first-child span::before {
+    content:"🔥";
+   display: block;
+    position: absolute;
+    top:0%;
+    left: 50%;
+    translate:-50%;
+    
+}
+.stats-grid:first-child span{
+    margin-top: 40px;
+}
+
 /*n.2 evidenziare la terza start card*/
 
 .stats-grid:last-child {
