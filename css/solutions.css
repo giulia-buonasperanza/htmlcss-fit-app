@@ -66,15 +66,23 @@
     left: 0%%;
 }
 
-.exercise-name/*:nth-child(even)*/ {
+.exercise-name
+
+/*:nth-child(even)*/
+    {
     margin-top: 15px;
 }
 
 /*non sono riuscita ad applicare i margini solo agli esercizi pari*/
 
 
+/*n.7-8 Focus sui campi input*/
 
-
+.goal-input-group select:focus,
+.goal-input-group input:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
 
 /*n.9 miglioramenti al button*/
 
