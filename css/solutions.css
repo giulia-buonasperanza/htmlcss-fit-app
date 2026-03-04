@@ -50,3 +50,24 @@
     background-color: rgb(146, 235, 146);
     border-left: 4px solid #23b705;
 }
+
+
+/*n.6 icona fulmine esercizi pari*/
+
+.exercise-item {
+    position: relative;
+}
+
+.exercise-item:nth-child(even)::before {
+    content: "⚡";
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 0%%;
+}
+
+.exercise-name/*:nth-child(even)*/ {
+    margin-top: 15px;
+}
+
+/*non sono riuscita ad applicare i margini solo agli esercizi pari*/
