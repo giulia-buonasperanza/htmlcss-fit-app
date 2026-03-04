@@ -1,0 +1,13 @@
+
+
+
+/*n.2 evidenziare la terza start card*/
+
+.stats-grid:last-child {
+    background-color: #5865f2;
+   
+}
+
+.stats-grid:last-child span {
+   color:white;
+   }
