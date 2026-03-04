@@ -106,5 +106,17 @@
     z-index: 99;
     top: 47%;
     left: 58%;
+}
 
+/*n.11-12 Migliorie alla navigazione*/
+
+
+.nav-item:hover {
+     background: #030a55;
+     color: #5865f2;
+}
+
+.nav-item:first-child {
+     background: #030a55;
+     color: #5865f2;
 }
